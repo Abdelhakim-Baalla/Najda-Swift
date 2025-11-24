@@ -6514,6 +6514,24 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGat+BgWW5TjDU=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGat+BgWm5UOw0=",
+					"_parent": {
+						"$ref": "AAAAAAGat+BgWW5TjDU="
+					},
+					"name": "NajdaSwift–ClassDiagram"
+				}
+			]
 		}
 	]
 }
