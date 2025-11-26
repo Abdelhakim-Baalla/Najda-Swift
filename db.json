@@ -1,0 +1,224 @@
+{
+    "ambulances": [
+        {
+            "id": 1,
+            "matricule": "A07-CASA",
+            "type": "ALS",
+            "statut": "disponible",
+            "position": {
+                "lat": 33.5731,
+                "lng": -7.5898,
+                "timestamp": "2025-11-26T10:15:00Z"
+            },
+            "equipage": [
+                "Ahmed Benali",
+                "Fatima Zahra"
+            ],
+            "equipements": [
+                "défibrillateur",
+                "oxygène",
+                "kit trauma",
+                "brancard"
+            ],
+            "derniereMaintenance": "2025-10-15"
+        },
+        {
+            "id": 2,
+            "matricule": "A12-RABAT",
+            "type": "BLS",
+            "statut": "occupee",
+            "position": {
+                "lat": 34.0209,
+                "lng": -6.8416,
+                "timestamp": "2025-11-26T09:55:00Z"
+            },
+            "equipage": [
+                "Mohamed Lahlou",
+                "Sara El Amrani"
+            ],
+            "equipements": [
+                "oxygène",
+                "brancard",
+                "kit premiers secours"
+            ],
+            "derniereMaintenance": "2025-11-01"
+        },
+        {
+            "id": 3,
+            "matricule": "A19-CASA",
+            "type": "ALS",
+            "statut": "disponible",
+            "position": {
+                "lat": 33.5951,
+                "lng": -7.6182,
+                "timestamp": "2025-11-26T10:20:00Z"
+            },
+            "equipage": [
+                "Khalid Mansouri",
+                "Nadia Berrada"
+            ],
+            "equipements": [
+                "défibrillateur",
+                "oxygène",
+                "kit trauma"
+            ],
+            "derniereMaintenance": "2025-09-20"
+        },
+        {
+            "id": 4,
+            "matricule": "A25-MARRAKECH",
+            "type": "BLS",
+            "statut": "maintenance",
+            "position": {
+                "lat": 31.6295,
+                "lng": -7.9811,
+                "timestamp": "2025-11-25T14:30:00Z"
+            },
+            "equipage": [],
+            "equipements": [
+                "oxygène",
+                "brancard"
+            ],
+            "derniereMaintenance": "2025-11-25"
+        },
+        {
+            "id": 5,
+            "matricule": "A31-CASA",
+            "type": "ALS",
+            "statut": "disponible",
+            "position": {
+                "lat": 33.5333,
+                "lng": -7.5833,
+                "timestamp": "2025-11-26T10:18:00Z"
+            },
+            "equipage": [
+                "Youssef Tazi",
+                "Amina Cherkaoui"
+            ],
+            "equipements": [
+                "défibrillateur",
+                "ventilateur",
+                "kit trauma"
+            ],
+            "derniereMaintenance": "2025-11-10"
+        }
+    ],
+    "incidents": [
+        {
+            "id": 1001,
+            "numero": "INC-2025-0487",
+            "adresse": "123 Boulevard Mohammed V, Casablanca",
+            "position": {
+                "lat": 33.5920,
+                "lng": -7.6135
+            },
+            "gravite": "critique",
+            "statut": "nouveau",
+            "patientDetails": {
+                "nom": "Karim El Idrissi",
+                "age": 45,
+                "sexe": "M"
+            },
+            "appelantNom": "Samira",
+            "appelantTel": "+212 661 234 567",
+            "createdAt": "2025-11-26T10:05:00Z",
+            "assignedAmbulanceId": null,
+            "assignedAt": null,
+            "enRouteAt": null,
+            "arrivedAt": null,
+            "finishedAt": null
+        },
+        {
+            "id": 1002,
+            "numero": "INC-2025-0488",
+            "adresse": "Avenue Hassan II, Rabat",
+            "position": {
+                "lat": 34.0150,
+                "lng": -6.8326
+            },
+            "gravite": "moyen",
+            "statut": "transport",
+            "patientDetails": {
+                "nom": "Leila Benjelloun",
+                "age": 28,
+                "sexe": "F"
+            },
+            "appelantNom": "Omar",
+            "appelantTel": "+212 677 890 123",
+            "createdAt": "2025-11-26T09:40:00Z",
+            "assignedAmbulanceId": 2,
+            "assignedAt": "2025-11-26T09:45:00Z",
+            "enRouteAt": "2025-11-26T09:48:00Z",
+            "arrivedAt": "2025-11-26T09:58:00Z",
+            "finishedAt": null
+        },
+        {
+            "id": 1003,
+            "numero": "INC-2025-0489",
+            "adresse": "Place Jemaa el-Fna, Marrakech",
+            "position": {
+                "lat": 31.6258,
+                "lng": -7.9892
+            },
+            "gravite": "faible",
+            "statut": "terminé",
+            "patientDetails": {
+                "nom": "Touriste",
+                "age": 35,
+                "sexe": "M"
+            },
+            "appelantNom": "Hôtel Riad",
+            "appelantTel": "+212 524 123 456",
+            "createdAt": "2025-11-26T08:20:00Z",
+            "assignedAmbulanceId": 1,
+            "assignedAt": "2025-11-26T08:25:00Z",
+            "enRouteAt": "2025-11-26T08:30:00Z",
+            "arrivedAt": "2025-11-26T08:45:00Z",
+            "finishedAt": "2025-11-26T09:15:00Z"
+        },
+        {
+            "id": 1004,
+            "numero": "INC-2025-0490",
+            "adresse": "Corniche Ain Diab, Casablanca",
+            "position": {
+                "lat": 33.5970,
+                "lng": -7.6650
+            },
+            "gravite": "critique",
+            "statut": "nouveau",
+            "patientDetails": {
+                "nom": "Inconnu",
+                "age": null,
+                "sexe": null
+            },
+            "appelantNom": "Passant",
+            "appelantTel": null,
+            "createdAt": "2025-11-26T10:22:00Z",
+            "assignedAmbulanceId": null,
+            "assignedAt": null,
+            "enRouteAt": null,
+            "arrivedAt": null,
+            "finishedAt": null
+        }
+    ],
+    "utilisateurs": [
+        {
+            "id": 1,
+            "nom": "Ali",
+            "prenom": "Hassani",
+            "email": "regulateur@najda.ma",
+            "password": "123456",
+            "role": "regulateur",
+            "createdAt": "2025-01-01T00:00:00Z"
+        },
+        {
+            "id": 2,
+            "nom": "Karim",
+            "prenom": "Mernissi",
+            "email": "chef@najda.ma",
+            "password": "123456",
+            "role": "chef-parc",
+            "createdAt": "2025-01-01T00:00:00Z"
+        }
+    ]
+}
