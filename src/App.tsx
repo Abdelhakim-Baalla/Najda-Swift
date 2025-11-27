@@ -6,12 +6,13 @@ import Dashboard from './pages/Dashboard';
 import MapPage from './pages/MapPage';
 import IncidentsPage from './pages/IncidentsPage';
 import FleetPage from './pages/FleetPage';
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
