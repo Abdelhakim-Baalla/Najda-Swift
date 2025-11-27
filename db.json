@@ -26,7 +26,7 @@
             "id": 2,
             "matricule": "A12-RABAT",
             "type": "BLS",
-            "statut": "occupee",
+            "statut": "occupée",
             "position": {
                 "lat": 34.0209,
                 "lng": -6.8416,
@@ -114,9 +114,9 @@
             },
             "gravite": "critique",
             "statut": "nouveau",
+            "patient": "Karim El Idrissi",
+            "age": 45,
             "patientDetails": {
-                "nom": "Karim El Idrissi",
-                "age": 45,
                 "sexe": "M"
             },
             "appelantNom": "Samira",
@@ -138,9 +138,9 @@
             },
             "gravite": "moyen",
             "statut": "transport",
+            "patient": "Leila Benjelloun",
+            "age": 28,
             "patientDetails": {
-                "nom": "Leila Benjelloun",
-                "age": 28,
                 "sexe": "F"
             },
             "appelantNom": "Omar",
@@ -162,9 +162,9 @@
             },
             "gravite": "faible",
             "statut": "terminé",
+            "patient": "Touriste",
+            "age": 35,
             "patientDetails": {
-                "nom": "Touriste",
-                "age": 35,
                 "sexe": "M"
             },
             "appelantNom": "Hôtel Riad",
@@ -186,9 +186,9 @@
             },
             "gravite": "critique",
             "statut": "nouveau",
+            "patient": "Inconnu",
+            "age": null,
             "patientDetails": {
-                "nom": "Inconnu",
-                "age": null,
                 "sexe": null
             },
             "appelantNom": "Passant",
@@ -220,5 +220,6 @@
             "role": "chef-parc",
             "createdAt": "2025-01-01T00:00:00Z"
         }
-    ]
+    ],
+    "journalActivite": []
 }
