@@ -26,7 +26,7 @@ function App() {
       </Routes>
       <Toaster />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
