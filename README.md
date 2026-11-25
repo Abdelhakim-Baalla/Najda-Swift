@@ -1,5 +1,9 @@
 # React + TypeScript + Vite
 
+[Centre de régulation simulé](https://baalla-najda-swift-demo.abdelhakimbaalla50.workers.dev/dashboard) · [Composants du centre de régulation](https://github.com/Abdelhakim-Baalla/Najda-Swift/blob/main/src/pages/Dashboard.tsx)
+
+Pour reconstruire la démo depuis la racine du dépôt, exécuter `npm ci && npm run build`. À la racine, `npx wrangler deploy` publie les fichiers générés.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
